@@ -13,6 +13,7 @@
 		6829D5781C8D78E700DFAB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6829D5761C8D78E700DFAB37 /* Main.storyboard */; };
 		6829D57A1C8D78E700DFAB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6829D5791C8D78E700DFAB37 /* Assets.xcassets */; };
 		6829D57D1C8D78E700DFAB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6829D57B1C8D78E700DFAB37 /* LaunchScreen.storyboard */; };
+		6862C6C21CAE241E00F1B7C4 /* Simulator Screen Shot 2016年4月1日 上午11.35.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 6862C6C11CAE241E00F1B7C4 /* Simulator Screen Shot 2016年4月1日 上午11.35.02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6829D5791C8D78E700DFAB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6829D57C1C8D78E700DFAB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6829D57E1C8D78E700DFAB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6862C6C11CAE241E00F1B7C4 /* Simulator Screen Shot 2016年4月1日 上午11.35.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2016年4月1日 上午11.35.02.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		6829D5611C8D78E700DFAB37 = {
 			isa = PBXGroup;
 			children = (
+				6862C6C11CAE241E00F1B7C4 /* Simulator Screen Shot 2016年4月1日 上午11.35.02.png */,
 				6829D56C1C8D78E700DFAB37 /* CAShapeLayer */,
 				6829D56B1C8D78E700DFAB37 /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6862C6C21CAE241E00F1B7C4 /* Simulator Screen Shot 2016年4月1日 上午11.35.02.png in Resources */,
 				6829D57D1C8D78E700DFAB37 /* LaunchScreen.storyboard in Resources */,
 				6829D57A1C8D78E700DFAB37 /* Assets.xcassets in Resources */,
 				6829D5781C8D78E700DFAB37 /* Main.storyboard in Resources */,
@@ -298,6 +302,7 @@
 				6829D5831C8D78E700DFAB37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
