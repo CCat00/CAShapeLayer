@@ -23,9 +23,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor darkGrayColor];
     
-    UIView *red = [[UIView alloc] initWithFrame:CGRectMake(kScreenWidth/2-20, kScreenHeight/2-100, 40, 200)];
-    red.backgroundColor = [UIColor redColor];
-//    [self.view addSubview:red];
+//    [self test];
+//    return;
+    
+//    UIView *red = [[UIView alloc] initWithFrame:CGRectMake(kScreenWidth/2-20, kScreenHeight/2-100, 40, 200)];
+//    red.backgroundColor = [UIColor redColor];
+////    [self.view addSubview:red];
     
     
     CGFloat lineWidth1 = 2, lineWidth2 = 2;
@@ -64,6 +67,16 @@
     [self.view.layer addSublayer:circle3];
     
 
+}
+
+- (void)test
+{
+    CAShapeLayer *circle = [CAShapeLayer layer];
+    circle.lineWidth = 50;
+    circle.path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(kScreenWidth/2, kScreenHeight/2) radius:100 startAngle:0 endAngle:-2*M_PI clockwise:NO].CGPath;
+    circle.strokeColor = [UIColor whiteColor].CGColor;
+    circle.fillColor = [UIColor lightGrayColor].CGColor;
+    [self.view.layer addSublayer:circle];
 }
 
 - (void)didReceiveMemoryWarning {
